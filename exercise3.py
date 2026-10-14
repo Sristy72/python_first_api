@@ -1,0 +1,10 @@
+zoo = ['dog', "cat", 'horse', 'pig', 'cog']
+zoo.remove(zoo[2])
+print(zoo)
+zoo.append("dfd")
+print(zoo)
+zoo.insert(0, "gshfd")
+print(zoo)
+zoo.remove(zoo[0])
+print(zoo)
+print(zoo[0 : 3])
