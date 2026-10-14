@@ -1,0 +1,15 @@
+my_list = [111,2,30,64,57,6]
+print(my_list[-4])
+people_list = ["djsh", "jkdh", "udh", "jdh"]
+print(len(people_list))
+print(people_list[2 : 3])
+my_list.append(55)
+print(my_list)
+#my_list.insert(3,"jdh")
+print(my_list)
+#my_list.remove("jdh")
+print(my_list)
+my_list.pop(0)
+print(my_list)
+my_list.sort()
+print(my_list)
