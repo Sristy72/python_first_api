@@ -11,3 +11,8 @@ vehicle2 = my_vehicle.copy()
 vehicle2['number_of_tires'] = 4
 vehicle2.pop('mileage')
 print(vehicle2)
+for x in vehicle2:
+    print(x)
+
+for x in vehicle2.values():
+    print(x)
